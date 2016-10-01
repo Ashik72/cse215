@@ -22,6 +22,9 @@ public class PairWiseRepetitive {
 	
 	public PairWiseRepetitive() {
 		
+		System.out.println("Enter a positive integer:");
+
+		
 		int input_num = this.input_num();
 		
 		while (input_num < 0) {
